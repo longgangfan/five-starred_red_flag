@@ -5,7 +5,7 @@ gmtset  MAP_ORIGIN_Y=0
 gmtset PS_PAGE_COLOR=244/0/2
 #Prepare a custom star which can be rotated
 cat >star_rotated.def<<EOF
-N: 1 a
+N: 1 r
 #Because it is in a bash script, so the "$1" in the next line shoud be in the form of  "\$1" insted of  "$1".
 #roate the coordinate
 \$1	R
