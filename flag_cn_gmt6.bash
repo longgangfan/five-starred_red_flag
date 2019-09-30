@@ -35,7 +35,7 @@ cat  >tmp.dat <<EOF
 95.99040	105.6	19.2	51.3402
 EOF
 gmt  psxy tmp.dat  -R0/288/0/192  -JX288c/192c  -Skstar_rotated    -G250/244/8  >flag_cn_1.ps
-psconvert flag_cn_1.ps -Tj -E300
+psconvert flag_cn_1.ps -Tj -E72
 rm *.conf *.history *.dat *def
 	;;
 	2)
@@ -48,7 +48,7 @@ cat  >tmp.dat <<EOF
 79.9888 87.9965 15.9994 51.3402
 EOF
 gmt  psxy tmp.dat  -R0/240/0/160  -JX240c/160c  -Skstar_rotated    -G250/244/8  >flag_cn_2.ps
-psconvert flag_cn_2.ps -Tj -E300
+psconvert flag_cn_2.ps -Tj -E72
 rm *.conf *.history *.dat *.def
 	;;
 	3)
@@ -61,7 +61,7 @@ cat  >tmp.dat <<EOF
 63.9968 70.4035 12.8006 51.3402
 EOF
 gmt  psxy tmp.dat  -R0/192/0/128 -JX192c/128c  -Skstar_rotated    -G250/244/8  >flag_cn_3.ps
-psconvert flag_cn_3.ps -Tj -E300
+psconvert flag_cn_3.ps -Tj -E72
 rm *.conf *.history *.dat *.def
 	;;
 	4)
@@ -74,7 +74,7 @@ cat  >tmp.dat <<EOF
 47.9952 52.8 9.6 51.3402
 EOF
 gmt  psxy tmp.dat  -R0/144/0/96 -JX144c/96c  -Skstar_rotated    -G250/244/8  >flag_cn_4.ps
-psconvert flag_cn_4.ps -Tj -E300
+psconvert flag_cn_4.ps -Tj -E72
 rm *.conf *.history *.dat *.def
 	;;
 	5)
@@ -87,7 +87,7 @@ cat  >tmp.dat <<EOF
 31.9936 35.1965 6.39936 51.3402
 EOF
 gmt  psxy tmp.dat  -R0/96/0/64 -JX96c/64c  -Skstar_rotated    -G250/244/8  >flag_cn_5.ps
-psconvert flag_cn_5.ps -Tj -E300
+psconvert flag_cn_5.ps -Tj -E72
 rm *.conf *.history *.dat *.def
 	;;
 	*)
